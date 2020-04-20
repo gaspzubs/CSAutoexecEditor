@@ -12,7 +12,7 @@ namespace CSAutoexecEditor
 {
     public partial class MainForm : Form
     {
-        public MainForm()
+        private MainForm()
         {
             InitializeComponent();
         }
