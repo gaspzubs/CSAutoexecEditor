@@ -1,0 +1,670 @@
+﻿{
+  "keyGroups": [
+    {
+      "name": "Numeric Keypad",
+      "keys": [
+        {
+          "name": "1 / End",
+          "csBind": "kp_end",
+          "code": 97,
+          "html": "1<br/><span class=\"key-alt-fn\">End</span>",
+          "order": 12
+        },
+        {
+          "name": "2 / Down Arrow",
+          "csBind": "kp_downarrow",
+          "code": 98,
+          "html": "2<br/><span class=\"key-alt-fn arrow\">↓</span>",
+          "order": 13
+        },
+        {
+          "name": "3 / Page Down",
+          "csBind": "kp_pgdn",
+          "code": 99,
+          "html": "3<br/><span class=\"key-alt-fn\">Pg Dn</span>",
+          "order": 14
+        },
+        {
+          "name": "4 / Left Arrow",
+          "csBind": "kp_leftarrow",
+          "code": 100,
+          "html": "4<br/><span class=\"key-alt-fn arrow\">←</span>",
+          "order": 9
+        },
+        {
+          "name": "5",
+          "csBind": "kp_5",
+          "code": 101,
+          "html": "5",
+          "order": 10
+        },
+        {
+          "name": "6 / Right Arrow",
+          "csBind": "kp_rightarrow",
+          "code": 102,
+          "html": "6<br/><span class=\"key-alt-fn arrow\">→</span>",
+          "order": 11
+        },
+        {
+          "name": "7 / Home",
+          "csBind": "kp_home",
+          "code": 103,
+          "html": "7<br/><span class=\"key-alt-fn\">Home</span>",
+          "order": 5
+        },
+        {
+          "name": "8 / Up Arrow",
+          "csBind": "kp_uparrow",
+          "code": 104,
+          "html": "8<br/><span class=\"key-alt-fn arrow\">↑</span>",
+          "order": 6
+        },
+        {
+          "name": "9 / Page Up",
+          "csBind": "kp_pgup",
+          "code": 105,
+          "html": "9<br/><span class=\"key-alt-fn\">Pg Up</span>",
+          "order": 7
+        },
+        {
+          "name": "0 / Insert",
+          "csBind": "kp_ins",
+          "code": 96,
+          "html": "0<br/><span class=\"key-alt-fn\">Insert</span>",
+          "css": "wide-key",
+          "order": 16
+        },
+        {
+          "name": ". / Delete",
+          "csBind": "kp_del",
+          "code": 110,
+          "html": ".<br/><span class=\"key-alt-fn\">Delete</span>",
+          "order": 17
+        },
+        {
+          "name": "/ (Slash)",
+          "csBind": "kp_slash",
+          "code": 111,
+          "html": "/",
+          "order": 2
+        },
+        {
+          "name": "* (Multiply)",
+          "csBind": "kp_multiply",
+          "code": 106,
+          "html": "*",
+          "order": 3
+        },
+        {
+          "name": "- (Minus)",
+          "csBind": "kp_minus",
+          "code": 109,
+          "html": "-",
+          "order": 4
+        },
+        {
+          "name": "+ (Plus)",
+          "csBind": "kp_plus",
+          "code": 107,
+          "html": "+",
+          "css": "tall-key",
+          "order": 8
+        },
+        {
+          "name": "Enter",
+          "csBind": "kp_enter",
+          "code": null,
+          "html": "Enter",
+          "css": "tall-key",
+          "order": 15
+        },
+        {
+          "name": "Num Lock",
+          "csBind": null,
+          "code": null,
+          "html": "Num<br/>Lock",
+          "disabled": true,
+          "order": 1
+        }
+      ]
+    },
+    {
+      "name": "Navigation Keys",
+      "keys": [
+        {
+          "name": "Insert",
+          "csBind": "ins",
+          "code": 45,
+          "html": "Insert",
+          "order": 1
+        },
+        {
+          "name": "Delete",
+          "csBind": "del",
+          "code": 46,
+          "html": "Delete",
+          "order": 5
+        },
+        {
+          "name": "Home",
+          "csBind": "home",
+          "code": 36,
+          "html": "Home",
+          "order": 2
+        },
+        {
+          "name": "End",
+          "csBind": "end",
+          "code": 35,
+          "html": "End",
+          "order": 6
+        },
+        {
+          "name": "Page Up",
+          "csBind": "pgup",
+          "code": 33,
+          "html": "Page<br/>Up",
+          "order": 3
+        },
+        {
+          "name": "Page Down",
+          "csBind": "pgdn",
+          "code": 34,
+          "html": "Page<br/>Down",
+          "order": 7
+        },
+        {
+          "name": "Up Arrow",
+          "csBind": "uparrow",
+          "code": 38,
+          "html": "<span class=\"glyphicon glyphicon-arrow-up\"></span>",
+          "order": 10
+        },
+        {
+          "name": "Left Arrow",
+          "csBind": "leftarrow",
+          "code": 37,
+          "html": "<span class=\"glyphicon glyphicon-arrow-left\"></span>",
+          "order": 13
+        },
+        {
+          "name": "Down Arrow",
+          "csBind": "downarrow",
+          "code": 40,
+          "html": "<span class=\"glyphicon glyphicon-arrow-down\"></span>",
+          "order": 14
+        },
+        {
+          "name": "Right Arrow",
+          "csBind": "rightarrow",
+          "code": 39,
+          "html": "<span class=\"glyphicon glyphicon-arrow-right\"></span>",
+          "order": 15
+        },
+        {
+          "spacer": true,
+          "order": 4
+        },
+        {
+          "spacer": true,
+          "order": 8
+        },
+        {
+          "spacer": true,
+          "order": 9
+        },
+        {
+          "spacer": true,
+          "order": 11
+        },
+        {
+          "spacer": true,
+          "order": 12
+        },
+        {
+          "spacer": true,
+          "order": 16
+        }
+      ]
+    },
+    {
+      "name": "Function Keys",
+      "keys": [
+        {
+          "name": "F1",
+          "csBind": "f1",
+          "code": 112,
+          "html": "F1",
+          "order": 1
+        },
+        {
+          "name": "F2",
+          "csBind": "f2",
+          "code": 113,
+          "html": "F2",
+          "order": 2
+        },
+        {
+          "name": "F3",
+          "csBind": "f3",
+          "code": 114,
+          "html": "F3",
+          "order": 3
+        },
+        {
+          "name": "F4",
+          "csBind": "f4",
+          "code": 115,
+          "html": "F4",
+          "order": 4
+        },
+        {
+          "name": "F5",
+          "csBind": "f5",
+          "code": 116,
+          "html": "F5",
+          "order": 5
+        },
+        {
+          "name": "F6",
+          "csBind": "f6",
+          "code": 117,
+          "html": "F6",
+          "order": 6
+        },
+        {
+          "name": "F7",
+          "csBind": "f7",
+          "code": 118,
+          "html": "F7",
+          "order": 7
+        },
+        {
+          "name": "F8",
+          "csBind": "f8",
+          "code": 119,
+          "html": "F8",
+          "order": 8
+        },
+        {
+          "name": "F9",
+          "csBind": "f9",
+          "code": 120,
+          "html": "F9",
+          "order": 9
+        },
+        {
+          "name": "F10",
+          "csBind": "f10",
+          "code": 121,
+          "html": "F10",
+          "order": 10
+        },
+        {
+          "name": "F11",
+          "csBind": "f11",
+          "code": 122,
+          "html": "F11",
+          "order": 11
+        },
+        {
+          "name": "F12",
+          "csBind": "f12",
+          "code": 123,
+          "html": "F12",
+          "order": 12
+        }
+      ]
+    },
+    {
+      "name": "Standard Keys",
+      "keys": [
+        {
+          "name": "1 / ! (Exclamation Mark)",
+          "csBind": "1",
+          "code": 49
+        },
+        {
+          "name": "2 / @ (At Sign)",
+          "csBind": "2",
+          "code": 50
+        },
+        {
+          "name": "3 / # (Number Sign)",
+          "csBind": "3",
+          "code": 51
+        },
+        {
+          "name": "4 / $ (Dollar Sign)",
+          "csBind": "4",
+          "code": 52
+        },
+        {
+          "name": "5 / % (Percent Sign)",
+          "csBind": "5",
+          "code": 53
+        },
+        {
+          "name": "6 / ^ (Caret)",
+          "csBind": "6",
+          "code": 54
+        },
+        {
+          "name": "7 / & (Ampersand)",
+          "csBind": "7",
+          "code": 55
+        },
+        {
+          "name": "8 / * (Asterisk)",
+          "csBind": "8",
+          "code": 56
+        },
+        {
+          "name": "9 / ( (Parenthesis Left)",
+          "csBind": "9",
+          "code": 57
+        },
+        {
+          "name": "0 / ) (Parenthesis Right)",
+          "csBind": "0",
+          "code": 48
+        },
+        {
+          "name": "A",
+          "csBind": "a",
+          "code": 65
+        },
+        {
+          "name": "B",
+          "csBind": "b",
+          "code": 66
+        },
+        {
+          "name": "C",
+          "csBind": "c",
+          "code": 67
+        },
+        {
+          "name": "D",
+          "csBind": "d",
+          "code": 68
+        },
+        {
+          "name": "E",
+          "csBind": "e",
+          "code": 69
+        },
+        {
+          "name": "F",
+          "csBind": "f",
+          "code": 70
+        },
+        {
+          "name": "G",
+          "csBind": "g",
+          "code": 71
+        },
+        {
+          "name": "H",
+          "csBind": "h",
+          "code": 72
+        },
+        {
+          "name": "I",
+          "csBind": "i",
+          "code": 73
+        },
+        {
+          "name": "J",
+          "csBind": "j",
+          "code": 74
+        },
+        {
+          "name": "K",
+          "csBind": "k",
+          "code": 75
+        },
+        {
+          "name": "L",
+          "csBind": "l",
+          "code": 76
+        },
+        {
+          "name": "M",
+          "csBind": "m",
+          "code": 77
+        },
+        {
+          "name": "N",
+          "csBind": "n",
+          "code": 78
+        },
+        {
+          "name": "O",
+          "csBind": "o",
+          "code": 79
+        },
+        {
+          "name": "P",
+          "csBind": "p",
+          "code": 80
+        },
+        {
+          "name": "Q",
+          "csBind": "q",
+          "code": 81
+        },
+        {
+          "name": "R",
+          "csBind": "r",
+          "code": 82
+        },
+        {
+          "name": "S",
+          "csBind": "s",
+          "code": 83
+        },
+        {
+          "name": "T",
+          "csBind": "t",
+          "code": 84
+        },
+        {
+          "name": "U",
+          "csBind": "u",
+          "code": 85
+        },
+        {
+          "name": "V",
+          "csBind": "v",
+          "code": 86
+        },
+        {
+          "name": "W",
+          "csBind": "w",
+          "code": 87
+        },
+        {
+          "name": "X",
+          "csBind": "x",
+          "code": 88
+        },
+        {
+          "name": "Y",
+          "csBind": "y",
+          "code": 89
+        },
+        {
+          "name": "Z",
+          "csBind": "z",
+          "code": 90
+        },
+        {
+          "name": "Space Bar",
+          "csBind": "space",
+          "code": 32
+        },
+        {
+          "name": "- (Hyphen) / _ (Underscore)",
+          "csBind": "-",
+          "code": 173
+        },
+        {
+          "name": "= (Equals Sign) / + (Plus Sign)",
+          "csBind": "=",
+          "code": 61
+        },
+        {
+          "name": "[ (Bracket Left) / { (Brace Left)",
+          "csBind": "[",
+          "code": 219
+        },
+        {
+          "name": "] (Bracket Right) / } (Brace Right)",
+          "csBind": "]",
+          "code": 221
+        },
+        {
+          "name": "\\ (Backslash) / | (Pipe)",
+          "csBind": "\\",
+          "code": 220
+        },
+        {
+          "name": "; (Semicolon) / : (Colon)",
+          "csBind": "semicolon",
+          "code": 59
+        },
+        {
+          "name": "' (Apostraphe) / \" (Quotation Marks)",
+          "csBind": "'",
+          "code": 222
+        },
+        {
+          "name": ", (Comma) / < (Pointy Bracket Left)",
+          "csBind": ",",
+          "code": 188
+        },
+        {
+          "name": ". (Period) / > (Pointy Bracket Right)",
+          "csBind": ".",
+          "code": 190
+        },
+        {
+          "name": "/ (Slash) / ? (Question Mark)",
+          "csBind": "/",
+          "code": 191
+        },
+        {
+          "name": "Backspace",
+          "csBind": "backspace",
+          "code": 8
+        },
+        {
+          "name": "Tab",
+          "csBind": "tab",
+          "code": 9
+        },
+        {
+          "name": "Enter",
+          "csBind": "enter",
+          "code": 13
+        },
+        {
+          "name": "Caps Lock",
+          "csBind": "capslock",
+          "code": 20
+        },
+        {
+          "name": "Shift Left",
+          "csBind": "shift",
+          "code": 16
+        },
+        {
+          "name": "Shift Right",
+          "csBind": "rshift",
+          "code": null
+        },
+        {
+          "name": "Control Left",
+          "csBind": "ctrl",
+          "code": 17
+        },
+        {
+          "name": "Control Right",
+          "csBind": "rctrl",
+          "code": null
+        },
+        {
+          "name": "Alt Left",
+          "csBind": "alt",
+          "code": 18
+        },
+        {
+          "name": "Alt Right",
+          "csBind": "ralt",
+          "code": null
+        }
+      ]
+    },
+    {
+      "name": "Mouse Buttons",
+      "keys": [
+        {
+          "name": "Left Mouse",
+          "csBind": "mouse1",
+          "code": 223,
+          "html": "Left<br/>Click",
+          "css": "main-mouse-button",
+          "order": 2
+        },
+        {
+          "name": "Right Mouse",
+          "csBind": "mouse2",
+          "code": 224,
+          "html": "Right<br/>Click",
+          "css": "main-mouse-button",
+          "order": 4
+        },
+        {
+          "name": "Middle Mouse",
+          "csBind": "mouse3",
+          "code": 225,
+          "html": "Middle<br/>Click",
+          "order": 6
+        },
+        {
+          "name": "Side Mouse 1",
+          "csBind": "mouse4",
+          "code": 226,
+          "html": "Side 1",
+          "order": 7
+        },
+        {
+          "name": "Side Mouse 2",
+          "csBind": "mouse5",
+          "code": 227,
+          "html": "Side 2",
+          "order": 5
+        },
+        {
+          "name": "Mouse Wheel Down",
+          "csBind": "mwheeldown",
+          "code": 228,
+          "html": "Scroll<br/>Down",
+          "order": 9
+        },
+        {
+          "name": "Mouse Wheel Up",
+          "csBind": "mwheelup",
+          "code": 229,
+          "html": "Scroll<br/>Up",
+          "order": 3
+        },
+        {
+          "spacer": true,
+          "order": 1
+        }
+      ]
+    }
+  ]
+}

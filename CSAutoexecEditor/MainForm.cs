@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using KeyBindsForm;
 using Microsoft.WindowsAPICodePack.Dialogs;
 
 namespace CSAutoexecEditor
@@ -16,14 +17,17 @@ namespace CSAutoexecEditor
         private MainForm()
         {
             InitializeComponent();
+            // Button events
             this.cSFolderButton.Click += new EventHandler(this.CSFolderButton_Click);
+            this.mngeKeyBndsButton.Click += new EventHandler(this.MngeKeyBndsButton_Click);
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
-        
+
+        #region Button Events
         private void CSFolderButton_Click(object sender, EventArgs e)
         {
             using (var csOpenFolderDialog = new CommonOpenFileDialog())
@@ -39,9 +43,15 @@ namespace CSAutoexecEditor
             }
         }
 
-        private void folderBrowserCfg_HelpRequest(object sender, EventArgs e)
+        private void MngeKeyBndsButton_Click(object sender, EventArgs e)
         {
-
+            KeyBindsForm.KeyBindsForm keyBindsForm = KeyBindsForm.KeyBindsForm.GetInstance;
+            keyBindsForm.Show();
+        }
+        #endregion Button Events
+        private void FolderBrowserCfg_HelpRequest(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }
