@@ -45,54 +45,51 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.folderBrowserCfg = new System.Windows.Forms.FolderBrowserDialog();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.CSFolderTextBox = new System.Windows.Forms.TextBox();
-            this.CSFolderButton = new System.Windows.Forms.Button();
+            this.cSFolderTextBox = new System.Windows.Forms.TextBox();
+            this.cSFolderButton = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // folderBrowserCfg
-            // 
-            this.folderBrowserCfg.SelectedPath = "C:\\";
-            this.folderBrowserCfg.Tag = "";
-            this.folderBrowserCfg.HelpRequest += new System.EventHandler(this.folderBrowserCfg_HelpRequest);
             // 
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 140F));
-            this.tableLayoutPanel1.Controls.Add(this.CSFolderTextBox, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.CSFolderButton, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.cSFolderTextBox, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.cSFolderButton, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(800, 450);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // CSFolderTextBox
+            // cSFolderTextBox
             // 
-            this.CSFolderTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.CSFolderTextBox.Location = new System.Drawing.Point(3, 3);
-            this.CSFolderTextBox.Name = "CSFolderTextBox";
-            this.CSFolderTextBox.Size = new System.Drawing.Size(654, 20);
-            this.CSFolderTextBox.TabIndex = 0;
+            this.cSFolderTextBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.cSFolderTextBox.Location = new System.Drawing.Point(3, 5);
+            this.cSFolderTextBox.Name = "cSFolderTextBox";
+            this.cSFolderTextBox.Size = new System.Drawing.Size(654, 20);
+            this.cSFolderTextBox.TabIndex = 0;
             // 
-            // CSFolderButton
+            // cSFolderButton
             // 
-            this.CSFolderButton.AutoSize = true;
-            this.CSFolderButton.Location = new System.Drawing.Point(663, 3);
-            this.CSFolderButton.MinimumSize = new System.Drawing.Size(135, 23);
-            this.CSFolderButton.Name = "CSFolderButton";
-            this.CSFolderButton.Size = new System.Drawing.Size(135, 23);
-            this.CSFolderButton.TabIndex = 1;
-            this.CSFolderButton.Text = "Select your CS:GO folder";
-            this.CSFolderButton.UseVisualStyleBackColor = false;
+            this.cSFolderButton.AutoSize = true;
+            this.cSFolderButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cSFolderButton.Location = new System.Drawing.Point(660, 0);
+            this.cSFolderButton.Margin = new System.Windows.Forms.Padding(0);
+            this.cSFolderButton.MinimumSize = new System.Drawing.Size(135, 20);
+            this.cSFolderButton.Name = "cSFolderButton";
+            this.cSFolderButton.Size = new System.Drawing.Size(140, 30);
+            this.cSFolderButton.TabIndex = 1;
+            this.cSFolderButton.Text = "Select your CS:GO folder";
+            this.cSFolderButton.UseVisualStyleBackColor = false;
+            this.cSFolderButton.Click += new System.EventHandler(this.CSFolderButton_Click);
             // 
             // MainForm
             // 
@@ -100,6 +97,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.MinimumSize = new System.Drawing.Size(400, 400);
             this.Name = "MainForm";
             this.Text = "Autoexec Editor";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -110,11 +108,9 @@
         }
 
         #endregion
-        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
-        private System.Windows.Forms.FolderBrowserDialog folderBrowserCfg;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.TextBox CSFolderTextBox;
-        private System.Windows.Forms.Button CSFolderButton;
+        private System.Windows.Forms.TextBox cSFolderTextBox;
+        private System.Windows.Forms.Button cSFolderButton;
     }
 }
 

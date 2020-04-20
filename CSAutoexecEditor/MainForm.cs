@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.WindowsAPICodePack.Dialogs;
 
 namespace CSAutoexecEditor
 {
@@ -21,10 +22,20 @@ namespace CSAutoexecEditor
         {
 
         }
-
-        private void label1_Click(object sender, EventArgs e)
+        
+        private void CSFolderButton_Click(object sender, EventArgs e)
         {
+            using (var csOpenFolderDialog = new CommonOpenFileDialog())
+            {
+                csOpenFolderDialog.IsFolderPicker = true;
+                csOpenFolderDialog.EnsurePathExists = true;
+                var csFolder = csOpenFolderDialog.ShowDialog();
 
+                if (csFolder == CommonFileDialogResult.Ok && !string.IsNullOrWhiteSpace(csOpenFolderDialog.FileName))
+                {
+                    this.cSFolderTextBox.Text = csOpenFolderDialog.FileName;
+                }
+            }
         }
 
         private void folderBrowserCfg_HelpRequest(object sender, EventArgs e)
