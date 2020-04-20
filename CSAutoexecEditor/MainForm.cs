@@ -16,6 +16,7 @@ namespace CSAutoexecEditor
         private MainForm()
         {
             InitializeComponent();
+            this.cSFolderButton.Click += new EventHandler(this.CSFolderButton_Click);
         }
 
         private void Form1_Load(object sender, EventArgs e)
