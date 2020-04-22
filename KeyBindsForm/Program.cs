@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace KeyBindsForm
 {
-    static class Program
+    static class Program /* <-- don't see the point of this, is never used but the code but won't compile without it */
     {
         /// <summary>
         /// The main entry point for the application.
@@ -14,10 +14,10 @@ namespace KeyBindsForm
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            KeyBindsForm keyBindsForm = KeyBindsForm.GetInstance;
-            Application.Run(keyBindsForm);
+            //Application.EnableVisualStyles();
+            //Application.SetCompatibleTextRenderingDefault(false);
+            //KeyBindsForm keyBindsForm = KeyBindsForm.GetInstance(new Form());
+            //Application.Run(keyBindsForm);
         }
     }
 }

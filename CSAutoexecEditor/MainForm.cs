@@ -20,6 +20,8 @@ namespace CSAutoexecEditor
             // Button events
             this.cSFolderButton.Click += new EventHandler(this.CSFolderButton_Click);
             this.mngeKeyBndsButton.Click += new EventHandler(this.MngeKeyBndsButton_Click);
+            // Miscellaneous events
+            this.FormClosing += this.MainForm_FormClosing;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -46,12 +48,15 @@ namespace CSAutoexecEditor
         private void MngeKeyBndsButton_Click(object sender, EventArgs e)
         {
             KeyBindsForm.KeyBindsForm keyBindsForm = KeyBindsForm.KeyBindsForm.GetInstance;
-            keyBindsForm.Show();
+            keyBindsForm.Show(this);
+            this.Hide();
         }
         #endregion Button Events
-        private void FolderBrowserCfg_HelpRequest(object sender, EventArgs e)
+
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            throw new NotImplementedException();
+            this.Dispose();
         }
+
     }
 }
