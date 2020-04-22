@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="SettingAutoexec.Binding">
+    <Position X="0.75" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAACCAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Binding.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Struct Name="SettingAutoexec.Command">
+    <Position X="5.75" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Binding" />
+    </ShowAsAssociation>
+  </Struct>
+  <Struct Name="SettingAutoexec.Key">
+    <Position X="4" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAQAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Key.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Binding" />
+    </ShowAsAssociation>
+  </Struct>
+  <Interface Name="SettingAutoexec.ISetting">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InterfaceSetting.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

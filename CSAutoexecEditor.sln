@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSAutoexecEditor", "CSAutoexecEditor\CSAutoexecEditor.csproj", "{98546AA4-99E4-4246-B832-EFA42B03FDC0}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SettingAutoexec", "SettingAutoexec\SettingAutoexec.csproj", "{FFE44B48-81AF-43A7-B889-7C3A009B0736}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyBindsForm", "KeyBindsForm\KeyBindsForm.csproj", "{9C164320-82F8-4427-BE99-EB3C45141515}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{98546AA4-99E4-4246-B832-EFA42B03FDC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98546AA4-99E4-4246-B832-EFA42B03FDC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98546AA4-99E4-4246-B832-EFA42B03FDC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE44B48-81AF-43A7-B889-7C3A009B0736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE44B48-81AF-43A7-B889-7C3A009B0736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE44B48-81AF-43A7-B889-7C3A009B0736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE44B48-81AF-43A7-B889-7C3A009B0736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C164320-82F8-4427-BE99-EB3C45141515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C164320-82F8-4427-BE99-EB3C45141515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C164320-82F8-4427-BE99-EB3C45141515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C164320-82F8-4427-BE99-EB3C45141515}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -46,10 +46,11 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.generateButton = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.cSFolderTextBox = new System.Windows.Forms.TextBox();
             this.cSFolderButton = new System.Windows.Forms.Button();
-            this.generateButton = new System.Windows.Forms.Button();
+            this.mngeKeyBndsButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -64,6 +65,17 @@
             this.panel1.Size = new System.Drawing.Size(584, 411);
             this.panel1.TabIndex = 1;
             // 
+            // generateButton
+            // 
+            this.generateButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.generateButton.AutoSize = true;
+            this.generateButton.Location = new System.Drawing.Point(13, 376);
+            this.generateButton.Name = "generateButton";
+            this.generateButton.Size = new System.Drawing.Size(108, 23);
+            this.generateButton.TabIndex = 2;
+            this.generateButton.Text = "Generate autoexec";
+            this.generateButton.UseVisualStyleBackColor = true;
+            // 
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 2;
@@ -71,6 +83,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 140F));
             this.tableLayoutPanel1.Controls.Add(this.cSFolderTextBox, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.cSFolderButton, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.mngeKeyBndsButton, 0, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
@@ -104,15 +117,17 @@
             this.cSFolderButton.Text = "Select your CS:GO folder";
             this.cSFolderButton.UseVisualStyleBackColor = false;
             // 
-            // generateButton
+            // mngeKeyBndsButton
             // 
-            this.generateButton.AutoSize = true;
-            this.generateButton.Location = new System.Drawing.Point(13, 376);
-            this.generateButton.Name = "generateButton";
-            this.generateButton.Size = new System.Drawing.Size(108, 23);
-            this.generateButton.TabIndex = 2;
-            this.generateButton.Text = "Generate autoexec";
-            this.generateButton.UseVisualStyleBackColor = true;
+            this.mngeKeyBndsButton.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.mngeKeyBndsButton.AutoSize = true;
+            this.tableLayoutPanel1.SetColumnSpan(this.mngeKeyBndsButton, 2);
+            this.mngeKeyBndsButton.Location = new System.Drawing.Point(240, 33);
+            this.mngeKeyBndsButton.Name = "mngeKeyBndsButton";
+            this.mngeKeyBndsButton.Size = new System.Drawing.Size(104, 23);
+            this.mngeKeyBndsButton.TabIndex = 2;
+            this.mngeKeyBndsButton.Text = "Manage key binds";
+            this.mngeKeyBndsButton.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
@@ -139,6 +154,7 @@
         private System.Windows.Forms.TextBox cSFolderTextBox;
         private System.Windows.Forms.Button cSFolderButton;
         private System.Windows.Forms.Button generateButton;
+        private System.Windows.Forms.Button mngeKeyBndsButton;
     }
 }
 
